@@ -1,0 +1,21 @@
+spring:
+  application:
+    name:
+  cloud:
+    config:
+      sever:
+        git:
+          uri: C:\UDEMY\DDD\microservices-demo\config-server-repository
+          default-label: main
+          username: agelenler
+          password:
+          clone-on-start: true
+      fail-fast: true
+    security:
+      user:
+        name: spring_cloud_user
+        password: F5UeGMMT5Y6L68dsCeRp9ziZx4wvpdylkUshr23jjbk05zbKSgDHUKfKCcIA0VbN
+
+jasypt:
+  encrypt:
+    password: QWEasdzxc123!

@@ -4,17 +4,16 @@
         <artifactId>microservices-demo</artifactId>
         <groupId>kg.alfit</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>kafka</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>kafka-admin</module>
-        <module>kafka-model</module>
-        <module>kafka-producer</module>
-        <module>kafka-consumer</module>
-    </modules>
+    <artifactId>elastic-model</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+    </dependencies>
 </project>
